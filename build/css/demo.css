@@ -35,7 +35,7 @@ button {
 }
 input[disabled],
 button[disabled] {
-  background-color: #eee;
+  background: #eee;
 }
 
 input,
@@ -58,11 +58,11 @@ textarea#subject {
 
 button {
   color: #fff;
-  background-color: #428bca;
+  background: #428bca;
   border: 1px solid #357ebd;
 }
 button:hover {
-  background-color: #3276b1;
+  background: #3276b1;
   border-color: #285e8e;
   cursor: pointer;
 }

@@ -60,7 +60,7 @@
   padding: 0;
   margin: 0 0 0 -1px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  background-color: white;
+  background: white;
   border: 1px solid #ccc;
   white-space: nowrap;
   max-height: 200px;
@@ -95,7 +95,7 @@
   color: #999;
 }
 .iti__country.iti__highlight {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 .iti__flag-box, .iti__country-name {
   margin-right: 6px;
@@ -134,7 +134,7 @@
   cursor: pointer;
 }
 .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 .iti--allow-dropdown input[disabled] + .iti__flag-container:hover,
 .iti--allow-dropdown input[readonly] + .iti__flag-container:hover {
@@ -142,10 +142,10 @@
 }
 .iti--allow-dropdown input[disabled] + .iti__flag-container:hover .iti__selected-flag,
 .iti--allow-dropdown input[readonly] + .iti__flag-container:hover .iti__selected-flag {
-  background-color: transparent;
+  background: transparent;
 }
 .iti--separate-dial-code .iti__selected-flag {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 .iti--separate-dial-code.iti--show-flags .iti__selected-dial-code {
   margin-left: 6px;
@@ -1241,7 +1241,7 @@
   box-shadow: 0px 0px 1px 0px #888;
   background-image: url("../img/flags.png");
   background-repeat: no-repeat;
-  background-color: #dbdbdb;
+  background: #dbdbdb;
   background-position: 20px 0;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -1251,5 +1251,5 @@
 }
 
 .iti__flag.iti__np {
-  background-color: transparent;
+  background: transparent;
 }

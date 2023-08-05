@@ -833,9 +833,9 @@ a.plyr__control:before {
 }
 
 .plyr__poster {
-  background-color: #000;
-  background-color: #000;
-  background-color: var(--plyr-video-background, var(--plyr-video-background, #000));
+  background: #000;
+  background: #000;
+  background: var(--plyr-video-background, var(--plyr-video-background, #000));
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1112,15 +1112,15 @@ a.plyr__control:before {
 }
 
 .plyr--video.plyr--loading .plyr__progress__buffer {
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25));
+  background: hsla(0, 0%, 100%, 0.25);
+  background: hsla(0, 0%, 100%, 0.25);
+  background: var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25));
 }
 
 .plyr--audio.plyr--loading .plyr__progress__buffer {
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6));
+  background: rgba(193, 200, 209, 0.6);
+  background: rgba(193, 200, 209, 0.6);
+  background: var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6));
 }
 
 .plyr__volume {
@@ -1181,21 +1181,21 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui.plyr--audio input[type='range']::-webkit-slider-runnable-track {
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
+  background: rgba(193, 200, 209, 0.6);
+  background: rgba(193, 200, 209, 0.6);
+  background: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
 }
 
 .plyr--full-ui.plyr--audio input[type='range']::-moz-range-track {
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
+  background: rgba(193, 200, 209, 0.6);
+  background: rgba(193, 200, 209, 0.6);
+  background: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
 }
 
 .plyr--full-ui.plyr--audio input[type='range']::-ms-track {
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: rgba(193, 200, 209, 0.6);
-  background-color: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
+  background: rgba(193, 200, 209, 0.6);
+  background: rgba(193, 200, 209, 0.6);
+  background: var(--plyr-audio-range-track-background, var(--plyr-audio-progress-buffered-background, rgba(193, 200, 209, 0.6)));
 }
 
 .plyr--full-ui.plyr--audio input[type='range']:active::-webkit-slider-thumb {
@@ -1375,21 +1375,21 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui.plyr--video input[type='range']::-webkit-slider-runnable-track {
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
+  background: hsla(0, 0%, 100%, 0.25);
+  background: hsla(0, 0%, 100%, 0.25);
+  background: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
 }
 
 .plyr--full-ui.plyr--video input[type='range']::-moz-range-track {
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
+  background: hsla(0, 0%, 100%, 0.25);
+  background: hsla(0, 0%, 100%, 0.25);
+  background: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
 }
 
 .plyr--full-ui.plyr--video input[type='range']::-ms-track {
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: hsla(0, 0%, 100%, 0.25);
-  background-color: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
+  background: hsla(0, 0%, 100%, 0.25);
+  background: hsla(0, 0%, 100%, 0.25);
+  background: var(--plyr-video-range-track-background, var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, 0.25)));
 }
 
 .plyr--full-ui.plyr--video input[type='range']:active::-webkit-slider-thumb {
@@ -1588,9 +1588,9 @@ a.plyr__control:before {
 }
 
 .plyr__preview-thumb {
-  background-color: hsla(0, 0%, 100%, 0.9);
-  background-color: hsla(0, 0%, 100%, 0.9);
-  background-color: var(--plyr-tooltip-background, hsla(0, 0%, 100%, 0.9));
+  background: hsla(0, 0%, 100%, 0.9);
+  background: hsla(0, 0%, 100%, 0.9);
+  background: var(--plyr-tooltip-background, hsla(0, 0%, 100%, 0.9));
   border-radius: 3px;
   bottom: 100%;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
@@ -1677,7 +1677,7 @@ a.plyr__control:before {
 }
 
 .plyr__preview-thumb__time-container span {
-  background-color: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 2px;
   border-radius: calc(3px - 1px);
   border-radius: calc(var(--plyr-tooltip-radius, 3px) - 1px);

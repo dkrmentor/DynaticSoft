@@ -531,7 +531,7 @@ iframe.wait-autoplay {
 .glightbox-clean .gprev,
     .glightbox-clean .gnext,
     .glightbox-clean .gclose {
-  background-color: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
 }
 
@@ -910,12 +910,12 @@ iframe.wait-autoplay {
   .glightbox-clean .gprev,
     .glightbox-clean .gnext,
     .glightbox-clean .gclose {
-    background-color: rgba(0, 0, 0, 0.32);
+    background: rgba(0, 0, 0, 0.32);
   }
   .glightbox-clean .gprev:hover,
 .glightbox-clean .gnext:hover,
 .glightbox-clean .gclose:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
   }
   .glightbox-clean .gprev {
     top: 45%;

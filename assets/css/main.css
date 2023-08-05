@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
+  --color-primary: #042888;
   --color-secondary: #000000;
 }
 
@@ -31,7 +31,7 @@
 # Main Banner
 --------------------------------------------------------------*/
 .main-t {
-  color: #56B8E6;
+  color: #042888;
   font-weight: bolder;
 }
 /*--------------------------------------------------------------
@@ -108,7 +108,7 @@ section {
   height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: #fff;
+    background: #fff;
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.09);
     text-decoration: none;
     padding: 10px;
@@ -124,7 +124,7 @@ section {
   border: none;
 }
 .form {
-  background-color: #fff;
+  background: #fff;
   border-radius: 10px;
   padding: 25px;
   text-align: center;
@@ -155,7 +155,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(27, 47, 69, 0.7);
+  background: rgba(27, 47, 69, 0.7);
   position: absolute;
   inset: 0;
 }
@@ -292,7 +292,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 24px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 1200px) {
@@ -302,7 +302,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: black;
   padding: 12px 0;
 }
 
@@ -501,7 +501,7 @@ section {
     display: none;
     padding: 10px 0;
     margin: 10px 20px;
-    background-color: rgba(20, 35, 51, 0.6);
+    background: rgba(20, 35, 51, 0.6);
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -558,7 +558,12 @@ section {
   padding: 120px 0;
   z-index: 3;
 }
-
+.hero .row.z-index {
+  align-items: center;
+}
+h1.main-t.aos-init.aos-animate {
+  color: white;
+}
 @media (min-width: 1034px) {
   .hero:after {
     position: absolute;
@@ -573,13 +578,13 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.6);
+  background: rgba(27, 47, 69, 0.8);
   inset: 0;
 }
 
 @media (max-width: 1034px) {
   .hero:before {
-    background: rgba(27, 47, 69, 0.7);
+    background: rgba(27, 47, 69, 0.8);
   }
 }
 
@@ -592,7 +597,10 @@ section {
     background-attachment: fixed;
   }
 }
-
+.hero .form {
+  background: #04022378;
+  color: white;
+}
 .hero h2 {
   margin: 0;
   font-size: 48px;
@@ -604,10 +612,8 @@ section {
 
 .hero blockquote {
   color: #fff;
-  padding-left: 20px;
   font-size: 15px;
   font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
   margin: 40px 0;
 }
 
@@ -700,7 +706,7 @@ padding: 0px 0px;
 }
 
 .why-us .slides {
-  background-color: #f7f9fc;
+  background: #f7f9fc;
 }
 
 .why-us h3 {
@@ -741,11 +747,11 @@ padding: 0px 0px;
 }
 
 .why-us .swiper-pagination .swiper-pagination-bullet {
-  background-color: var(--color-secondary);
+  background: var(--color-secondary);
 }
 
 .why-us .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background: var(--color-primary);
 }
 
 @media (max-width: 1200px) {
@@ -950,7 +956,7 @@ padding: 0px 0px;
 .features .details {
   margin-top: 80px;
   padding: 120px 0;
-  background-color: #f7f9fc;
+  background: #f7f9fc;
 }
 
 .features .details h4 {
@@ -974,7 +980,7 @@ padding: 0px 0px;
   padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  background-color: var(--color-primary);
+  background: var(--color-primary);
   color: #fff;
 }
 
@@ -1229,12 +1235,12 @@ padding: 0px 0px;
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background-color: #e8eff6;
+  background: #e8eff6;
   opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background: var(--color-primary);
 }
 
 .testimonials .swiper-slide {
@@ -1376,13 +1382,13 @@ padding: 0px 0px;
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background: #fff;
   opacity: 1;
   border: 1px solid var(--color-primary);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background: var(--color-primary);
 }
 
 .portfolio-details .portfolio-info {
@@ -1697,7 +1703,7 @@ padding: 0px 0px;
 
 .blog .blog-details .content blockquote {
   overflow: hidden;
-  background-color: rgba(27, 47, 69, 0.06);
+  background: rgba(27, 47, 69, 0.06);
   padding: 60px;
   position: relative;
   text-align: center;
@@ -1720,7 +1726,7 @@ padding: 0px 0px;
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: var(--color-secondary);
+  background: var(--color-secondary);
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -2104,11 +2110,11 @@ padding: 0px 0px;
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: var(--color-secondary);
+  background: var(--color-secondary);
 }
 
 .blog .comments .reply-form .btn-primary:hover {
-  background-color: rgba(27, 47, 69, 0.8);
+  background: rgba(27, 47, 69, 0.8);
 }
 
 /*--------------------------------------------------------------
@@ -2162,13 +2168,23 @@ padding: 0px 0px;
 .footer {
   font-size: 14px;
 }
+footer .foot-bedge img {
+  max-width: 200px;
+}
+footer .footer-section{
+  align-items: center;
+}
+footer .foot-bedge {text-align:right;}
+footer .footer-sec {
+  width: 33.33%;
+}
 footer .footer-info img {
   max-width: 200px;
   margin: 0px 0px 20px 0px;
 }
 
 .footer .footer-content {
-  background-color: #f7f9fc;
+  background: #f7f9fc;
   background-size: contain;
   padding: 60px 0 30px 0;
 }
@@ -2215,13 +2231,13 @@ footer .footer-info img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-primary);
+  background: var(--color-primary);
   color: #fff;
   border-radius: 50px;
 }
 
 .footer .footer-content .social-links a:hover {
-  background-color: #595b5e;
+  background: #595b5e;
 }
 
 .footer .footer-content h4 {
@@ -2279,7 +2295,7 @@ footer .footer-info img {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: white; /* Change this to the desired color */
+  background: white; /* Change this to the desired color */
   margin-bottom: 20px; /* Adjust this margin as needed */
 }
 
@@ -2301,7 +2317,7 @@ footer .footer-info img {
 }
 /* footer new color start */
 .footer .footer-content {
-  background-color: #000000;
+  background: #000000;
 }
 .footer .footer-content .footer-info p {
   color: #fff;
@@ -2337,7 +2353,7 @@ footer .footer-info img {
 }
 /* side fix icon start */
 .side-form-text {
-  background-color: #56B8E6;
+  background: linear-gradient(to right top, #0569d7, #042888);
   height: 60px;
   border-radius: 40px 40px 0px 0px;
   transform: rotate(-90deg);
@@ -2375,7 +2391,7 @@ footer .footer-info img {
   width: 100%;
   border: none;
   border-radius: 10px;
-  background-color: #fff;
+  background: #fff;
 }
 .side-form  .form input {
   height: 40px;
@@ -2399,7 +2415,7 @@ footer .footer-info img {
     display: flex;
     flex-direction: column;
     border-radius: 0px;
-    background-color: #56B8E6;
+    background: linear-gradient(to right top, #0569d7, #042888);
     color: #fff;
   }
   .sticky-icon .icon-form {
@@ -2435,10 +2451,10 @@ footer .footer-info img {
 	font-family:'Oswald', sans-serif;
   width: 100%;
 	transition:all 0.8s;
-  background-color: #56B8E6;
+  background: linear-gradient(to right top, #0569d7, #042888);
 }
 .sticky-icon a:hover  {
-  background-color: #000;
+  background: #000;
 	color:#FFF;
 	transform:translate(120px,0px);}	
 .sticky-icon a:hover i  {
@@ -2446,26 +2462,26 @@ footer .footer-info img {
 /*.search_icon a:hover i  {
 	transform:rotate(360deg);}*/
 .Facebook  {
-	background-color:#2C80D3;
+	background:#2C80D3;
 	color:#FFF;}
 	
 .Youtube  {
-	background-color:#fa0910;
+	background:#fa0910;
 	color:#FFF;}
 	
 .Twitter  {
-	background-color:#53c5ff;
+	background:#53c5ff;
 	color:#FFF;}
 	
 .Instagram  {
-	background-color:#FD1D1D;
+	background:#FD1D1D;
 	color:#FFF;}
 	
 .Google  {
-	background-color:#d34836;
+	background:#d34836;
 	color:#FFF;}						
 .sticky-icon a i {
-	background-color:#FFF;
+	background:#FFF;
 	height:40px;
 	width:40px;
 	color:#000;
@@ -2475,26 +2491,26 @@ footer .footer-info img {
 	margin-right:10px;
 	transition:all 0.5s;}
 .sticky-icon a i.fa-facebook-f  {
-	background-color:#FFF;
+	background:#FFF;
 	color:#2C80D3;}
 	
 .sticky-icon a i.fa-google-plus-g  {
-	background-color:#FFF;
+	background:#FFF;
 	color:#d34836;}
 	
 .sticky-icon a i.fa-instagram  {
-	background-color:#FFF;
+	background:#FFF;
 	color:#FD1D1D;}
 	
 .sticky-icon a i.fa-youtube  {
-	background-color:#FFF;
+	background:#FFF;
 	color:#fa0910;}
 	
 .sticky-icon a i.fa-twitter  {
-	background-color:#FFF;
+	background:#FFF;
 	color:#53c5ff;}
 .fas fa-shopping-cart  {
-	background-color:#FFF;}	
+	background:#FFF;}	
 #myBtn {
 	height:50px;
   display: none;
@@ -2508,7 +2524,7 @@ footer .footer-info img {
 	line-height:40px;
   border: none;
   outline: none;
-  background-color: #1e88e5;
+  background: #1e88e5;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -2517,7 +2533,7 @@ footer .footer-info img {
 	font-size:30px;}
 
 #myBtn:hover {
-  background-color: #555;
+  background: #555;
 }			
 
 /* side fix icon end */
