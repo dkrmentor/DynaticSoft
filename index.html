@@ -49,7 +49,44 @@
 
 
   <style>
+/* Reset default list styles */
+ul.topbar-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+/* Style for each list item */
+ul.topbar-info li {
+  margin-right: 20px; /* Adjust as needed */
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Style for link inside list item */
+ul.topbar-info li a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 0;
+}
+
+/* Style for the image inside link */
+ul.topbar-info li img {
+  vertical-align: middle;
+  margin-right: 5px; /* Adjust as needed */
+}
+
+/* On hover, change link color */
+ul.topbar-info li a:hover {
+  color: #007bff; /* Adjust the color as needed */
+}
+a{
+  color: white !important;
+}
   </style>
 </head>
 
@@ -59,12 +96,20 @@
   <div id="top-slip-header" class="d-flex align-items-center bg-dark text-white  ">
     <div class="container">
 
-      <p class="numbers">12345</p>
+ 
+<ul class="topbar-info d-flex">
+<li ><a href="mailto:info@logomarky.com"><img src="https://logomarky.com/wp-content/uploads/2023/07/mail.png" width="16" alt="usa"> info@logomarky.com</a></li>
+<li ><a href="tel:+1 508 202 1766"><img src="https://logomarky.com/wp-content/uploads/2023/07/united-states.png" width="20" alt="usa">+1 508 202 1766</a></li>
+<li ><a href="tel:+971555524673"><img src="https://logomarky.com/wp-content/uploads/2023/07/united-arab-emirates.png" width="20" alt="usa">+971555524673</a></li>
+</ul>
+
+
+
 
     </div>
   </div>
   <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top mt-4">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
