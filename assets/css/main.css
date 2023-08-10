@@ -581,13 +581,13 @@ h1.main-t.aos-init.aos-animate {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.8);
+  background: rgb(1 24 48 / 88%);
   inset: 0;
 }
 
 @media (max-width: 1034px) {
   .hero:before {
-    background: rgba(27, 47, 69, 0.8);
+    background: rgb(1 24 48 / 88%);
   }
 }
 
@@ -601,7 +601,7 @@ h1.main-t.aos-init.aos-animate {
   }
 }
 .hero .form {
-  background: #04022378;
+  background: linear-gradient(to right top, #0569d7, #042888);
   color: white;
 }
 .hero h2 {
@@ -622,7 +622,7 @@ h1.main-t.aos-init.aos-animate {
 
 .hero .btn-get-started {
   font-family: var(--font-secondary);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
