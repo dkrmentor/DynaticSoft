@@ -1241,7 +1241,6 @@
   box-shadow: 0px 0px 1px 0px #888;
   background-image: url("../img/flags.png");
   background-repeat: no-repeat;
-  background: #dbdbdb;
   background-position: 20px 0;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {

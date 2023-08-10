@@ -134,7 +134,7 @@ section {
   font-weight: 900;
 }
 .form-sub-h {
-  color: #1f98d1;
+  color: yellow;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -687,12 +687,15 @@ right: 0px;
 left: 0px;
 }
 .mySwiper {
-padding: 50px 0px;
+padding: 0px 0px 60px 0px;
 }
 .logo-sec {
 padding: 0px 0px;
 }
-
+.iti__country-name {
+  margin-right: 6px;
+  color: black;
+}
 /*--------------------------------------------------------------
 # Why Choose Us Section
 --------------------------------------------------------------*/
