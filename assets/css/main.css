@@ -134,12 +134,15 @@ section {
   font-weight: 900;
 }
 .form-sub-h {
-  color: yellow;
+  color: #ffc107 !important;
   font-weight: 600;
   margin-bottom: 0px;
 }
 .iti {
   margin-bottom: 20px;
+}
+.social-icons a {
+  margin-right: 12px;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -629,7 +632,10 @@ h1.main-t.aos-init.aos-animate {
   color: #fff;
   background: var(--color-primary);
 }
-
+form.lead-form button.btn-get-started {
+  background: #ffc107 !important;
+  color: black !important;
+}
 .hero .btn-get-started:hover {
   background: rgba(86, 184, 230, 0.8);
 }
