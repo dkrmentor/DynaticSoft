@@ -1,0 +1,115 @@
+section {
+    overflow: hidden;
+    padding: 40px 0 !important;
+  }
+.trust-logo img {
+    max-width: 150px;
+}
+
+#servicesection .service-img img {
+    max-width: 600px;
+}
+
+#servicesection .service-img {
+
+    display: flex;
+    justify-content: center;
+}
+
+#servicesection .row {
+    align-items: center;
+}
+
+#servicesection .btn-get-started {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+#servicesection .btn-get-started.bg-btn {
+    background: var(--color-primary);
+
+}
+
+#servicesection .btn-get-started.b-btn {
+    border: 2px solid black;
+    color: black;
+}
+
+.section-header h2 {
+    color: var(--color-primary);
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--color-primary);
+}
+
+.servicesectionicons .swiper-slide img {
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(to right top, rgb(5, 105, 215), rgb(4, 40, 136));
+
+}
+
+#servicesection .content {
+    font-weight: bold;
+}
+#servicesection h1 {
+    font-weight: 900;
+}
+
+#servicemidsec  .content-section{
+    margin: 0 auto;
+    padding: 40px 80px;
+    background: linear-gradient(to right top, rgb(5, 105, 215), rgb(4, 40, 136));
+    max-width: 920px;
+    border-radius: 20px;
+    color: white;
+}
+
+#servicemidsec  .content-section a{
+    color: white;
+}
+
+
+
+#servicemidsec .btn-get-started {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+#servicemidsec .btn-get-started.bg-btn {
+    background: white;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+
+}
+
+#servicemidsec .btn-get-started.b-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+#servicemidsec h1 {
+    font-size: 54px;
+    padding: 20px;
+    font-weight: 700;
+
+}
+#servicemidsec  {
+    font-weight: 500;
+
+}

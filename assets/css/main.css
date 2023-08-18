@@ -630,7 +630,13 @@ h1.main-t.aos-init.aos-animate {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
+}
+.hero .btn-get-started.bg-btn{
   background: var(--color-primary);
+
+}
+.hero .btn-get-started.b-btn{
+  border: 2px solid white;
 }
 form.lead-form button.btn-get-started {
   background: #ffc107 !important;
