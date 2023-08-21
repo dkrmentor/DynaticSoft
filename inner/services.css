@@ -113,3 +113,71 @@ section {
     font-weight: 500;
 
 }
+
+
+
+/* Modern tab styling */
+
+.portfoliowrp
+.tab-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+ .portfoliowrp .tab-content li {
+    list-style: none;
+    flex: 0 0 calc(20% - 20px); /* Adjust to keep 5 columns */
+    max-width: calc(20% - 20px); /* Adjust to keep 5 columns */
+    box-sizing: border-box;
+
+  }
+  
+ .portfoliowrp .tab-content a {
+    display: block;
+    text-decoration: none;
+  }
+  
+ .portfoliowrp .tab-content img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+ .portfoliowrp .tab-content img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+.portfoliowrp .tabbing-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .portfoliowrp .tabbing-links li {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .portfoliowrp .tabbing-links li.current {
+    background-color: #333;
+    color: white;
+  }
+  
+
+  .portfoliowrp .tabs-container .tabs {
+    display: none;
+  }
+  
+ .portfoliowrp .tabs-container .tabs.current {
+    display: block;
+  }
+  
