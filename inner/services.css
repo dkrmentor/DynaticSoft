@@ -1,7 +1,8 @@
 section {
     overflow: hidden;
     padding: 40px 0 !important;
-  }
+}
+
 .trust-logo img {
     max-width: 150px;
 }
@@ -60,11 +61,12 @@ section {
 #servicesection .content {
     font-weight: bold;
 }
+
 #servicesection h1 {
     font-weight: 900;
 }
 
-#servicemidsec  .content-section{
+#servicemidsec .content-section {
     margin: 0 auto;
     padding: 40px 80px;
     background: linear-gradient(to right top, rgb(5, 105, 215), rgb(4, 40, 136));
@@ -73,7 +75,7 @@ section {
     color: white;
 }
 
-#servicemidsec  .content-section a{
+#servicemidsec .content-section a {
     color: white;
 }
 
@@ -109,7 +111,8 @@ section {
     font-weight: 700;
 
 }
-#servicemidsec  {
+
+#servicemidsec {
     font-weight: 500;
 
 }
@@ -118,66 +121,172 @@ section {
 
 /* Modern tab styling */
 
-.portfoliowrp
-.tab-content {
+.portfoliowrp .tab-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-  }
-  
- .portfoliowrp .tab-content li {
+}
+
+.portfoliowrp .tab-content li {
     list-style: none;
-    flex: 0 0 calc(20% - 20px); /* Adjust to keep 5 columns */
-    max-width: calc(20% - 20px); /* Adjust to keep 5 columns */
+    flex: 0 0 calc(20% - 20px);
+    /* Adjust to keep 5 columns */
+    max-width: calc(20% - 20px);
+    /* Adjust to keep 5 columns */
     box-sizing: border-box;
 
-  }
-  
- .portfoliowrp .tab-content a {
+}
+
+.portfoliowrp .tab-content a {
     display: block;
     text-decoration: none;
-  }
-  
- .portfoliowrp .tab-content img {
+}
+
+.portfoliowrp .tab-content img {
     max-width: 100%;
     height: auto;
     border: 1px solid #ccc;
     transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
- .portfoliowrp .tab-content img:hover {
+}
+
+.portfoliowrp .tab-content img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
+}
+
 .portfoliowrp .tabbing-links {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
     margin-top: 20px;
-  }
-  
-  .portfoliowrp .tabbing-links li {
+}
+
+.portfoliowrp .tabbing-links li {
     padding: 10px 20px;
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .portfoliowrp .tabbing-links li.current {
+}
+
+.portfoliowrp .tabbing-links li.current {
     background-color: #333;
     color: white;
-  }
-  
+}
 
-  .portfoliowrp .tabs-container .tabs {
+
+.portfoliowrp .tabs-container .tabs {
     display: none;
-  }
-  
- .portfoliowrp .tabs-container .tabs.current {
+}
+
+.portfoliowrp .tabs-container .tabs.current {
     display: block;
-  }
-  
+}
+
+
+/* Existing CSS code... */
+.tabcontainer {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://oktawebdesigns.com/assets/images/pakcge-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.packages {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.package {
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.package:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.package-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.package-price {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.package-details {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.package-details li {
+    margin-bottom: 5px;
+}
+
+.choose-plan-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.choose-plan-btn:hover {
+    background-color: white;
+}
+
+.read-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.read-more-btn {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #222222;
+}
+
+.more-packages {
+    display: none;
+}
+
+.more-packages.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

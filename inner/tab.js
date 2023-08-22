@@ -21,3 +21,15 @@
 });
 
 
+
+
+
+
+
+
+
+
+document.getElementById("read-more-btn").addEventListener("click", function() {
+  var morePackages = document.querySelector(".more-packages");
+  morePackages.classList.toggle("show");
+});
