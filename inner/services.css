@@ -129,15 +129,16 @@ section {
     gap: 20px;
     flex-wrap: wrap;
 }
+.portfoliowrp .navwrp {
+    background-color: #f3f0f0;
+    border-radius: 50px;
+}
 
 .portfoliowrp .tab-content li {
     list-style: none;
     flex: 0 0 calc(20% - 20px);
-    /* Adjust to keep 5 columns */
     max-width: calc(20% - 20px);
-    /* Adjust to keep 5 columns */
     box-sizing: border-box;
-
 }
 
 .portfoliowrp .tab-content a {
@@ -159,10 +160,12 @@ section {
 
 .portfoliowrp .tabbing-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin-top: 20px;
+    text-align: center;
 }
 
 .portfoliowrp .tabbing-links li {
@@ -171,10 +174,19 @@ section {
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
-
+.portfoliowrp .main-heading {
+    font-size: 48px;
+    font-weight: 600;
+}
+.portfoliowrp p {
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+}
 .portfoliowrp .tabbing-links li.current {
     background-color: #333;
     color: white;
+    border-radius: 50px;
 }
 
 
@@ -201,14 +213,24 @@ section {
     text-align: center;
     padding: 100px 0;
 }
-
+.tabcontainer .main-heading {
+    font-size: 48px;
+    font-weight: 600;
+}
+.tabcontainer p {
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+}
 .packages {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     z-index: 1;
+  
+
 }
 
 .package {
@@ -219,7 +241,13 @@ section {
     width: calc(33.33% - 20px);
     transition: transform 0.3s, box-shadow 0.3s;
 }
+.package p{
 
+        font-weight: 600;
+        margin:0;
+        padding: 0;
+
+}
 .package:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -228,13 +256,16 @@ section {
 .package-title {
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: 500;
+
     color: white;
 }
 
 .package-price {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: white;
+    font-weight: 500;
+    font-size: 58px;
+    color: #fff;
+        margin-bottom: 15px;
     font-weight: bold;
 }
 
@@ -249,7 +280,7 @@ section {
     margin-bottom: 5px;
 }
 
-.choose-plan-btn {
+.choose-plan-btn , .read-more-btn  {
     background-color: white;
     color: black;
     padding: 10px 20px;
@@ -267,18 +298,6 @@ section {
     text-align: center;
     margin-top: 20px;
 }
-
-.read-more-btn {
-    background-color: var(--color-primary);
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border: none;
-}
-
-
 
 .more-packages {
     display: none;
@@ -329,7 +348,15 @@ section {
 
 }
 
-
+.main-package .main-heading {
+    font-size: 48px;
+    font-weight: 600;
+}
+.main-package p {
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+}
 
 .main-package .col-third.colimg {
     margin: auto 0px;
@@ -337,7 +364,7 @@ section {
 
 .main-package .nav-title {
     font-size: 1.2em;
-    color: #444;
+    color: #042888;
 }
 
 .main-package .nav-list {
@@ -406,7 +433,7 @@ section {
 .core-service .row {
      
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -435,7 +462,7 @@ section {
 .core-service .service-list h4 {
     font-size: 1.25rem;
     margin-bottom: 10px;
-}
+    font-weight: 500;}
 
 .core-service .service-list p {
     line-height: 1.6;
@@ -485,7 +512,8 @@ section {
 }
 
 .cta-sndwrp .main-heading {
-    font-size: 2.5rem;
+    font-size: 48px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -529,17 +557,16 @@ section {
     font-size: 16px;
 }
 
-.btmform .main-heading {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
+.btmform .service-list h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 500;}
+
+.btmform .service-list p {
+    line-height: 1.6;
+    font-size: 12px;
 }
 
-.btmform .main-pera {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: #666;
-}
 
 .btmform .wrapper {
     background-color: #fff;
