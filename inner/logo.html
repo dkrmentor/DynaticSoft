@@ -94,14 +94,89 @@
         .top-head a {
             color: white !important;
         }
+
+        .flexing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
+
+
+    <style>
+        @media(max-width: 768px) {
+            .flexing {
+                display: block;
+
+            }
+
+            #servicesection .service-img img {
+                max-width: 300px;
+            }
+
+            #servicemidsec .content-section {
+                padding: 20px;
+            }
+
+            .portfoliowrp .tabbing-links,
+            .portfoliowrp .tab-content {
+                display: block;
+
+            }
+
+            .portfoliowrp .tab-content li {
+                max-width: 140px;
+                width: 100%;
+                margin: 0 auto;
+                float: left;
+                list-style: none;
+            }
+
+            .package {
+                width: 90% !important;
+                margin: 0 auto;
+            }
+
+            .main-package .row-flex {
+                display: block;
+            }
+
+            ul.service-list {
+                padding: 0px;
+            }
+
+            .cta-sndwrp .btnwrp {
+                display: block;
+            }
+
+        }
+    </style>
+
+
+    <style>
+        /* header//footer */
+        @media(max-width: 768px) {
+            footer .foot-bedge {
+                text-align: center;
+            }
+
+            #top-slip-header .topslideclass {
+                display: none !important;
+            }
+
+            #top-slip-header {
+                padding: 40px;
+            }
+        }
+    </style>
+
 </head>
 
 <body class="page-index">
 
     <!-- ======= Top Slip Header ======= -->
     <div id="top-slip-header" class="d-flex align-items-center  text-white top-head  " style="background-color: black;">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container d-flex justify-content-between align-items-center topslideclass">
 
             <div class="left-cont">
 
@@ -206,7 +281,7 @@
                         </a>
 
                     </div>
-                    <div class="d-flex py-4" data-aos="fade-up" data-aos-delay="200" style="gap: 10px;">
+                    <div class="flexing py-4" data-aos="fade-up" data-aos-delay="200" style="gap: 10px;">
                         <a href="#about" class="btn-get-started bg-btn">let's Get Started</a>
                         <a href="tel:+00000000000" class="btn-get-started b-btn">+0 (000) 000-0000</a>
                     </div>
@@ -352,7 +427,7 @@
                             our custom logo design services now and you'll have a stunning logo in no time!</p>
 
 
-                        <div class="d-flex py-4" data-aos="fade-up" data-aos-delay="200" style="gap: 10px;">
+                        <div class="flexing py-4" data-aos="fade-up" data-aos-delay="200" style="gap: 10px;">
                             <a href="#about" class="btn-get-started bg-btn">let's Get Started</a>
                             <a href="tel:+00000000000" class="btn-get-started b-btn">+0 (000) 000-0000</a>
                         </div>
@@ -374,6 +449,7 @@
                 </div>
             </div>
         </section>
+
         <section id="servicemidsec" class="d-flex align-items-center">
             <div id="bg-animation " class="container content-section">
                 <div class="row z-index">
@@ -386,8 +462,7 @@
                             to the checkout.</p>
 
 
-                        <div class="d-flex py-4 justify-content-center" data-aos="fade-up" data-aos-delay="200"
-                            style="gap: 10px;">
+                        <div class="py-4 flexing" data-aos="fade-up" data-aos-delay="200" style="gap: 10px;">
                             <a href="#about" class="btn-get-started bg-btn">let's Get Started</a>
                             <a href="tel:+00000000000" class="btn-get-started b-btn">+0 (000) 000-0000</a>
                         </div>
@@ -1056,18 +1131,23 @@
                                 </figure>
                                 <div class="txt-wrap">
                                     <h4>Design Your Own Logo</h4>
-                                    <p>Having a logo that represents your expertise is critical to the success of your business. We specialize in creating customized logos that make your company stand out and create a distinct brand identity.</p>
+                                    <p>Having a logo that represents your expertise is critical to the success of your
+                                        business. We specialize in creating customized logos that make your company
+                                        stand out and create a distinct brand identity.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="txt-wrapsec">
                                 <figure>
-                                    <img src="../assets/img/updated/animated-logo-design.svg" alt="Animated Logo Design">
+                                    <img src="../assets/img/updated/animated-logo-design.svg"
+                                        alt="Animated Logo Design">
                                 </figure>
                                 <div class="txt-wrap">
                                     <h4>Animated Logo Design</h4>
-                                    <p>Our skilled animated logo designers create dynamic logos that enhance your brand's reputation and keep your audience engaged, ensuring your business stands out.</p>
+                                    <p>Our skilled animated logo designers create dynamic logos that enhance your
+                                        brand's reputation and keep your audience engaged, ensuring your business stands
+                                        out.</p>
                                 </div>
                             </div>
                         </li>
@@ -1078,7 +1158,9 @@
                                 </figure>
                                 <div class="txt-wrap">
                                     <h4>3D Logo Design</h4>
-                                    <p>We create eye-catching 3D logos that align with current trends, giving your brand the prominence it deserves to outperform the competition and captivate your audience.</p>
+                                    <p>We create eye-catching 3D logos that align with current trends, giving your brand
+                                        the prominence it deserves to outperform the competition and captivate your
+                                        audience.</p>
                                 </div>
                             </div>
                         </li>
@@ -1089,7 +1171,9 @@
                                 </figure>
                                 <div class="txt-wrap">
                                     <h4>Custom Illustration</h4>
-                                    <p>Our team of custom illustration designers helps your brand establish a distinct identity, standing out from the crowd and leaving a lasting impression on your audience.</p>
+                                    <p>Our team of custom illustration designers helps your brand establish a distinct
+                                        identity, standing out from the crowd and leaving a lasting impression on your
+                                        audience.</p>
                                 </div>
                             </div>
                         </li>
@@ -1098,7 +1182,7 @@
                 </div>
                 <div class="col">
                     <figure class="logo-image primeimg">
-                        <img class="primeimg"  src="../assets/img/updated/logo-tabs-2.png" alt="Logo Tabs">
+                        <img class="primeimg" src="../assets/img/updated/logo-tabs-2.png" alt="Logo Tabs">
                     </figure>
                 </div>
             </div>
@@ -1119,7 +1203,8 @@
                     <div class="col-md-12">
                         <div class="txtwrp">
                             <h2 class="main-heading">We Are <br> Here To Serve You</h2>
-                            <p class="main-pera">What if you are not ready? You might even ask our experts about what quick improvements are required for your company on a budget</p>
+                            <p class="main-pera">What if you are not ready? You might even ask our experts about what
+                                quick improvements are required for your company on a budget</p>
                         </div>
                         <div class="btnwrp">
                             <a class="btn-main" href="javascript:;">Chat With Us</a>
@@ -1136,15 +1221,19 @@
                     <div class="col-md-12">
                         <div class="txtwrp text-center">
                             <h2 class="main-heading">Alright! Let’s Do It Now</h2>
-                            <p class="main-pera">Fill up the form, write your tailored requirement and receive a free estimation</p>
+                            <p class="main-pera">Fill up the form, write your tailored requirement and receive a free
+                                estimation</p>
                         </div>
                     </div>
-                    <div class="col-md-12 d-flex">
+                    <div class="col-md-12 flexing">
                         <div class="sec-left">
                             <div class="wrapper">
                                 <div class="second-sec-cont">
                                     <h2>Make a Phone Request Right Now</h2>
-                                    <p><span style="color: #042e90;font-weight: 600;">Okta Web Designs </span> is dedicated to perfection and promises to make your experience memorable and exceptional. Allow us to assist you in standing out and realizing your full potential.</p>
+                                    <p><span style="color: #042e90;font-weight: 600;">Okta Web Designs </span> is
+                                        dedicated to perfection and promises to make your experience memorable and
+                                        exceptional. Allow us to assist you in standing out and realizing your full
+                                        potential.</p>
                                 </div>
                                 <form id="ordernow-form" action="webpages/contactformController.php" method="POST">
                                     <div class="alert alert-danger error" style="display: none;"></div>
@@ -1154,11 +1243,14 @@
                                                 <input type="text" placeholder="Name" name="Name" required="">
                                             </div>
                                             <div class="field">
-                                                <input type="email" placeholder="Email Address" name="Email" required="">
+                                                <input type="email" placeholder="Email Address" name="Email"
+                                                    required="">
                                             </div>
                                             <div class="field">
-                                                <span class="bg-danger col-lg-offset-3 contact_error " style="display: none;">Contact No Incorrect</span>
-                                                <input type="hidden" class="form-control" placeholder="Url" id="url" name="url" value="" required="">
+                                                <span class="bg-danger col-lg-offset-3 contact_error "
+                                                    style="display: none;">Contact No Incorrect</span>
+                                                <input type="hidden" class="form-control" placeholder="Url" id="url"
+                                                    name="url" value="" required="">
                                                 <input type="tel" name="brand_id" id="brand_id" value="15" hidden="">
                                             </div>
                                             <div class="field">
