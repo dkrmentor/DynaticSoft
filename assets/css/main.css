@@ -558,7 +558,7 @@ section {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
-  padding: 120px 0;
+  padding: 180px 0;
   z-index: 3;
 }
 .hero .row.z-index {
@@ -598,6 +598,7 @@ h1.main-t.aos-init.aos-animate {
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
+    padding: 160px 0px;
   }
 }
 .hero .form {

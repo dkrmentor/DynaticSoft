@@ -6,6 +6,10 @@ section {
 .trust-logo img {
     max-width: 150px;
 }
+section.logo-sec.servicesectionicons {
+    background: linear-gradient(to right top, rgb(5, 105, 215), rgb(4, 40, 136));
+
+}
 
 #servicesection .service-img img {
     max-width: 600px;
@@ -45,7 +49,7 @@ section {
 }
 
 .section-header h2 {
-    color: var(--color-primary);
+    color: white;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -53,9 +57,7 @@ section {
 }
 
 .servicesectionicons .swiper-slide img {
-    border-radius: 20px;
     padding: 20px;
-    background: linear-gradient(to right top, rgb(5, 105, 215), rgb(4, 40, 136));
 
 }
 
@@ -549,25 +551,23 @@ section {
     background-color: var(--color-primary);
 }
 
-
-
+/* Styling for the form section */
 .btmform {
     background-color: #f9f9f9;
     padding: 80px 0;
     font-size: 16px;
+    display: flex; /* Added to enable flex layout */
+    justify-content: space-between; /* Added to space the sections */
+    align-items: center; /* Added to vertically center content */
 }
 
-.btmform .service-list h4 {
-    font-size: 1.25rem;
-    margin-bottom: 10px;
-    font-weight: 500;}
-
-.btmform .service-list p {
-    line-height: 1.6;
-    font-size: 12px;
+/* Styling for the left section containing the form */
+.btmform .sec-left {
+    width: 80%;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
-
+/* Styling for the form wrapper */
 .btmform .wrapper {
     background-color: #fff;
     border-radius: 10px;
@@ -575,27 +575,7 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btmform .second-sec-cont h2 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.btmform .second-sec-cont p {
-    color: #666;
-    font-weight: 600;
-    line-height: 1.6;
-    margin-bottom: 25px;
-}
-
-.btmform form {
-    margin-top: 40px;
-}
-
-.btmform .field {
-    margin-bottom: 25px;
-}
-
+/* Styling for the form inputs and textarea */
 .btmform input[type="text"],
 .btmform input[type="email"],
 .btmform input[type="tel"],
@@ -605,8 +585,10 @@ section {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 16px;
+    margin-bottom: 15px; /* Added spacing between fields */
 }
 
+/* Styling for the submit button */
 .btmform input[type="submit"] {
     background-color: var(--color-primary);
     color: #fff;
@@ -621,16 +603,50 @@ section {
 .btmform input[type="submit"]:hover {
     background-color: #0056b3;
 }
-
-.btmform .sec-right .ver-cta {
-    background-color: #fff;
+/* Styling for the right section containing the image with overlay */
+.btmform .sec-right {
+    position: relative; /* Added for positioning the pseudo-element */
+    width: 20%;
+    height: 100%; /* Set the height to fill the entire section */
+    background-image: url(../assets/img/updated/rightform.png);
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Center the background image */
     border-radius: 10px;
-    padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-size: 18px;
 }
 
+/* Pseudo-element for the gradient overlay */
+.btmform .sec-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, #0569d7bd, #0428888f);
+    opacity: 0.8; /* Adjust the overlay opacity as needed */
+    border-radius: 10px;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .btmform {
+        flex-direction: column; /* Stack sections on smaller screens */
+        align-items: stretch; /* Reset alignment */
+    }
+
+    .btmform .sec-left,
+    .btmform .sec-right {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .btmform .sec-right {
+        margin-top: 20px; /* Add spacing between sections */
+    }
+}
+
+/* 
 .btmform .sec-right .ver-cta p {
     color: #666;
     margin-bottom: 10px;
@@ -640,4 +656,4 @@ section {
     font-size: 2rem;
     color: var(--color-primary);
     margin-bottom: 15px;
-}
+} */
