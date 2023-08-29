@@ -16,8 +16,7 @@
     });
   });
 
-  // Activate the default tab
-  tabLinks[0].click();
+
 });
 
 

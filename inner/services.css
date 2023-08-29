@@ -244,7 +244,7 @@ section.logo-sec.servicesectionicons {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .package p{
-
+font-size: 30px;
         font-weight: 600;
         margin:0;
         padding: 0;
@@ -271,13 +271,29 @@ section.logo-sec.servicesectionicons {
     font-weight: bold;
 }
 
-.package-details {
+.package  .package-details {
     list-style: none;
     padding: 0;
     margin-bottom: 15px;
     color: white;
+    height: 150px;
+    margin: 30px 0px;
+    overflow-y: scroll;
+}
+.package-details::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
 }
 
+
+
+.package-details::-webkit-scrollbar-thumb {
+    background-color: #b7b7b7; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.package-details::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
 .package-details li {
     margin-bottom: 5px;
 }
