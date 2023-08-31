@@ -2,7 +2,9 @@ section {
     overflow: hidden;
     padding: 40px 0 !important;
 }
-
+.hero .flexing.py-4.aos-init.aos-animate {
+    justify-content: flex-start;
+}
 .trust-logo img {
     max-width: 150px;
 }

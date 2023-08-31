@@ -35,54 +35,155 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    /* Reset default list styles */
+    ul.topbar-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Style for each list item */
+    ul.topbar-info li {
+      margin-right: 20px;
+      /* Adjust as needed */
+      font-size: 14px;
+      color: #333;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    /* Style for link inside list item */
+    ul.topbar-info li a {
+      text-decoration: none;
+      color: #333;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px 0;
+    }
+
+    /* Style for the image inside link */
+    ul.topbar-info li img {
+      vertical-align: middle;
+      margin-right: 5px;
+      /* Adjust as needed */
+    }
+
+    /* On hover, change link color */
+    ul.topbar-info li a:hover {
+      color: #007bff;
+      /* Adjust the color as needed */
+    }
+
+    .top-head a {
+      color: white !important;
+    }
+    .flexing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+  </style>
+    <style>
+      /* header//footer */
+      @media(max-width: 768px) {
+          footer .foot-bedge {
+              text-align: center;
+          }
+
+          #top-slip-header .topslideclass {
+              display: none !important;
+          }
+
+          #top-slip-header {
+              padding: 40px;
+          }
+          .flexing {
+                display: block;
+
+            }
+      }
+  </style>
+
 </head>
 
-<body class="page-blog">
-z
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+<body class="page-about">
+  
+   <!-- ======= Top Slip Header ======= -->
+   <div id="top-slip-header" class="d-flex align-items-center  text-white top-head  " style="background-color: black;">
+    <div class="container d-flex justify-content-between align-items-center topslideclass">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">Nova</h1>
-      </a>
+        <div class="left-cont">
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            <ul class="topbar-info d-flex">
+                <li><a href="mailto:#"><img src="assets/img/updated/mail.png"
+                      width="16" alt="usa"> info@dynaticsoft.com</a></li>
+                <li><a href="tel:+0 000 000 0000"><img
+                      src="assets/img/updated/united-states.png" width="20" alt="usa">+0 000 000
+                    0000</a></li>
+                <li><a href="tel:+000000000000"><img
+                      src="assets/img/updated/united-arab-emirates.png" width="20"
+                      alt="usa">+000000000000</a></li>
+      
+              </ul>
+        </div>
+        <div class="right-cont">
+            <ul class="topbar-info d-flex ">
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+                <div class="social-icons follow-icons">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+
+
             </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
+        </div>
+
 
     </div>
-  </header><!-- End Header -->
+</div>
+
+
+
+
+<!-- ======= Header ======= -->
+<header id="header" class="header d-flex align-items-center fixed-top">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="../assets/img/logo.png" alt=""> -->
+            <!-- <h1 class="d-flex align-items-center">DynaticSoft</h1> -->
+            <img src="assets/img/DynaticSoft_LOGO_whitelogo.png">
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="inner/logo.html">LOGO DESIGN</a></li>              
+                      <li><a href="inner/webdevelopment.html">WEB DEVELOPMENT</a></li>
+                      <li><a href="inner/systemdevelopment.html">SYSTEM MANAGEMENT</a></li>
+                      <li><a href="inner/digitalmarketing.html">DIGITAL MARKETING</a></li>
+                      <li><a href="inner/mobileapplication.html">MOBILE APPLICATION</a></li>
+                      <li><a href="inner/whatsappservices.html">WHATSAPP SERVICES</a></li>
+                    </ul>
+                  </li>                     <li><a href="portfolio.html">Portfolio</a></li>
+  
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
 
   <main id="main">
 
